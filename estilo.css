@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+ 
+
+
+/*título 'entrar'*/
+h2 {
+    font-size: 4vh; 
+    color: white;
+    font-family: times;
+}
+
+
+
+/*'OU' e 'Novo por aqui?'*/
+p {
+    font-size: 2vh; 
+    color: rgb(183, 183, 183);
+    font-family: times new roman;
+}
+
+
+
+/*toda parte escrita do meio*/
+.conteudo { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+}
+
+
+
+/*botao 'entrar'*/
+#entrar {
+    width: 25vh; 
+    padding: 6%; 
+    background-color:rgb(255, 123, 0); 
+    font-size: 80%; 
+    color: rgb(255, 251, 251); 
+}
+
+
+
+/*botao do codigo de acesso*/
+#codigo {
+    width: 100%; 
+    padding: 6%; 
+    background-color: rgba(56, 56, 56, 0.58); 
+    font-size: 80%; 
+    color: rgb(255, 251, 251); 
+}
+
+
+
+/*espaços para digitar*/
+input {
+    width: 100%; 
+    padding: 6%; 
+    border: 1px solid rgb(120, 119, 119); 
+    background-color:rgb(47, 46, 46); 
+    font-size: 80%; 
+    color: rgb(104, 104, 104); 
+  }
+
+
+
+/*checkbox do 'lembre-se de mim'*/
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    white-space: nowrap;
+  }
+  .checkbox label {
+    font-size: 16px; 
+    color: white;
+  }
+  .checkbox input[type="checkbox"] {
+    height: 80%;
+  }
+  
+
+
+/*palavras com link do meio*/
+.linkBranco a {
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 100%;
+}
+
+
+
+/*quadrado preto no meio da tela com as infos*/ 
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center; 
+    gap: 10px; 
+    padding: 5%; 
+    background-color:rgba(0, 0, 0, 0.82); 
+}
+
+
+
+/*infos do meio*/
+#meio { /*Definindo o fundo com a foto da equipe- align items eixo y, justify content eixo x*/
+    display: flex;
+    height: 100vh; 
+    flex-direction: column; /*definindo eixo principal*/
+    background-image: url('/Users/usuario/Downloads/3fdafb1b-93bb-42a6-a10a-b70cd6746435.jpg'); /*foto salva na mesma pasta*/
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+
+
+/*parte do scroll down*/
+#footer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0,0,0);
+    color: rgb(183, 183, 183);
+    padding: 2%;
+    align-items: center;
+    justify-content: space-around;
+    height: 20%
+}
+
+
+
+.links {
+    display: flex; /* Aplica flexbox ao contêiner dos links */
+    flex-direction: row;
+    flex-wrap: wrap; /* Permite que os links quebrem para a próxima linha, se necessário */
+    justify-content: center; /* Centraliza os links no contêiner */
+    gap: 150px; /* Espaçamento entre os links */
+    padding: 3%
+}
+
+/*links pertencentes ao footer*/
+.links a {
+    
+    color: rgb(132, 132, 132); 
+}
+
